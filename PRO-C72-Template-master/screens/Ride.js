@@ -86,10 +86,10 @@ export default class RideScreen extends Component {
              SHORT
           );*/}
 
-          {/* ToastAndroid.show(
+          { ToastAndroid.show(
             'You have rented the bike for next 1 hour. Enjoy your ride!!',
             ToastAndroid.SHORT
-          );*/}
+          )}
 
           this.setState({
             bikeAssigned: true,
